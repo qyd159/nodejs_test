@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2653c1bc-8b59-404c-a2f1-3ddb02d68cdd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../projects/wenbo.chumahtung.com/data/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../projects/wenbo.chumahtung.com/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../projects/wenbo.chumahtung.com/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../projects/wenbo.chumahtung.com/static/js/lib/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../projects/wenbo.chumahtung.com/static/js/lib/md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../projects/wenbo.chumahtung.com/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../projects/wenbo.chumahtung.com/templates/smarty.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/gitlab/gitlab-data-claim.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/mysql/mysql-cm.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/mysql/mysql-data-claim.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/redis/redis-pvc.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/storage/nfs/client/auth/clusterrole.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/storage/nfs/client/auth/clusterrolebinding.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/storage/nfs/client/auth/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/storage/nfs/client/class.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/storage/nfs/client/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/storage/nfs/client/test-claim.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/storage/nfs/client/test-pod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ngrok/ngrok6.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ngrok/start_ngrok6.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../eventloop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../circular dependency/a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../circular dependency/b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../circular dependency/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsmart.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../require.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server-bak.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../projects/backend" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../projects/backend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../projects/baimaosheying" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../projects/baimaosheying" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../projects/hoo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../projects/hoo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../projects/hoo_dep" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../projects/hoo_dep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../projects/web-visual-editor" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../projects/web-visual-editor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../projects/weixinZgh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../projects/weixinZgh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../projects/zhsq" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../projects/zhsq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../https/acme.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../https/acme.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/gitlab/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/gitlab_pc/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/gitlab_pc/gitlab-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/gitlab/gitlab-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/gitlab_pc/gitlab-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/gitlab/gitlab-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/gitlab_pc/redis-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/redis/redis-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/gitlab_pc/redis-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/redis/redis-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor/scripts.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor/scripts.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/config/adminserver/env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/config/db/env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/config/jobservice/app.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/config/jobservice/env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/config/log/logrotate.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/config/nginx/nginx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/config/registry/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/config/registry/root.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/config/ui/app.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/config/ui/env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/config/ui/private_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/adminserver/env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/clair/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/clair/postgres_env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/clair/postgresql-init.d/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/db/env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/jobservice/app.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/jobservice/env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/log/logrotate.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/nginx/nginx.http.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/nginx/nginx.https.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/nginx/notary.server.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/nginx/notary.upstream.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/notary/mysql-initdb.d/initial-notaryserver.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/notary/mysql-initdb.d/initial-notarysigner.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/notary/notary-signer-ca.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/notary/notary-signer.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/notary/notary-signer.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/notary/server-config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/notary/signer-config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/notary/signer_env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/registry/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/registry/root.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/ui/app.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/ui/env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/common/templates/ui/private_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/config/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/aria_log.00000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/aria_log_control" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/created_in_mariadb.flag" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/redis/redis-pv.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/ib_buffer_pool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/ibdata1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/multi-master.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/column_stats.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/column_stats.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/column_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/columns_priv.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/columns_priv.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/columns_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/db.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/db.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/db.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/event.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/event.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/event.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/func.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/func.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/func.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/general_log.CSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/general_log.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/general_log.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/gtid_slave_pos.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/gtid_slave_pos.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/help_category.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/help_category.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/help_category.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/help_keyword.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/help_keyword.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/help_keyword.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/help_relation.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/help_relation.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/help_relation.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/help_topic.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/help_topic.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/help_topic.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/host.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/host.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/host.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/index_stats.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/index_stats.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/index_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/innodb_index_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/innodb_index_stats.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/innodb_table_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/innodb_table_stats.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/plugin.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/plugin.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/plugin.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/proc.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/proc.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/proc.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/procs_priv.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/procs_priv.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/procs_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/proxies_priv.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/proxies_priv.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/proxies_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/roles_mapping.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/roles_mapping.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/roles_mapping.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/servers.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/servers.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/servers.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/slow_log.CSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/slow_log.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/slow_log.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/table_stats.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/table_stats.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/table_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/tables_priv.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/tables_priv.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/tables_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/time_zone.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/time_zone.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/time_zone.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/time_zone_leap_second.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/time_zone_leap_second.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/time_zone_leap_second.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/time_zone_name.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/time_zone_name.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/time_zone_name.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/time_zone_transition.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/time_zone_transition.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/time_zone_transition.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/time_zone_transition_type.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/time_zone_transition_type.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/time_zone_transition_type.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/user.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/user.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/mysql/user.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/performance_schema/db.opt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/access.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/access.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/access_log.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/access_log.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/alembic_version.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/alembic_version.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/clair_vuln_timestamp.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/clair_vuln_timestamp.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/db.opt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/img_scan_job.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/img_scan_job.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/img_scan_overview.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/img_scan_overview.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/project.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/project.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/project_member.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/project_member.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/project_metadata.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/project_metadata.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/properties.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/properties.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/replication_job.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/replication_job.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/replication_policy.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/replication_policy.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/replication_target.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/replication_target.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/repository.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/repository.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/role.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/role.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/user.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/database/registry/user.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/data/secretkey" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/docker-compose.clair.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/docker-compose.notary.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/harbor.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/harbor_1_1_0_template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/install.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/log/harbor/#015.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/log/harbor/Accept" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/log/harbor/Accept-Encoding" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/log/harbor/Accept-Language" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/log/harbor/Connection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/log/harbor/Cookie" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/log/harbor/Host" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/log/harbor/Upgrade-Insecure-Requests" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/log/harbor/User-Agent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/log/harbor/_.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/log/harbor/adminserver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/log/harbor/jobservice.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/log/harbor/proxy.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/log/harbor/registry.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/log/harbor/ui.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/prepare" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/harbor_pc/upgrade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/EFK/es-controller.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/EFK/es-controller.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/EFK/fluentd-es-ds.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/EFK/fluentd-es-ds.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/EFK/kibana-controller.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/EFK/kibana-controller.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/apiserver" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/apiserver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/config" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/dashboard/dashboard-controller.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/dashboard/dashboard-controller.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/docker.service" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/docker.service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/flanneld" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/flanneld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/flanneld.service" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/flanneld.service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/heapster/grafana-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/heapster/grafana-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/heapster/heapster-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/heapster/heapster-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/heapster/influxdb-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/heapster/influxdb-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/kubedns/kubedns-controller.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/kubedns/kubedns-controller.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/kubelet" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/kubelet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/proxy" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/kubernetes/proxy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/mysql/my.cnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/mysql/mysql-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/mysql/mysql-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/mysql/mysql-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/mysql/mysql-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/mysql/mysql_create.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/mysql/mysql_create_pc.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/ngrok/create.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/ngrok/create.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kubernetes-cluster/shell.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kubernetes-cluster/shell.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../macos/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../macos/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../nginx/cloudHost/vhost/chumahtung.com.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../nginx/cloudHost/vhost/chumahtung.com.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../nginx/localHost/vhost/common.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../nginx/localHost/vhost/common.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ngrok/ngrok3.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ngrok/ngrok3.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ngrok/start_ngrok3.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ngrok/start_ngrok3.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../psd2html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../psd2html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="511408992">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.214" value="1" />
+          <entry key="project.open.time.90" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="htm" value="2" />
+          <entry key="js" value="3" />
+          <entry key="json" value="4" />
+          <entry key="md" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="JSON" value="4" />
+          <entry key="JavaScript" value="3" />
+          <entry key="Markdown" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="112" />
+          <entry key="md" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="112" />
+          <entry key="Markdown" value="31" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="1729">
+                <caret line="90" column="38" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/index.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/smarty.htm">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/upload.htm">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="988">
+              <caret line="52" column="44" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/lib/jquery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/lib/md5.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>MD5</find>
+      <find>_</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/server.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="829" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/.nvm/versions/node/v7.9.0/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.server.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2653c1bc-8b59-404c-a2f1-3ddb02d68cdd" name="Default" comment="" />
+      <created>1536756280845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536756280845</updated>
+      <workItem from="1536756283883" duration="353000" />
+      <workItem from="1537238453217" duration="4897000" />
+      <workItem from="1538028451164" duration="3375000" />
+      <workItem from="1538978526267" duration="1203000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9828000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="829" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2629683" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5069638" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30083567" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Weex Documents" order="3" />
+      <window_info anchor="right" id="Copy/Paste" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/lib/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/lib/md5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="1729">
+            <caret line="90" column="38" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/smarty.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/upload.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

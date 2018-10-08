@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_test",
+  "version": "1.0.0",
+  "description": "使用express和jmart搭建一个动态网站",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "dateformat": "^3.0.3",
+    "express": "^4.16.3",
+    "jsmart": "^3.1.0",
+    "lodash": "^4.17.10",
+    "mkdirp": "^0.5.1",
+    "multer": "^1.3.1",
+    "node-uuid": "^1.4.8",
+    "node-xlsx": "^0.12.1"
+  }
+}

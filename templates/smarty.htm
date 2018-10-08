@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模板渲染</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="news-wrap">
+    <div class="news" id="news">
+        <div class="news-tab" id="news-tab">
+            <ul>
+                <li class="news-1" data-more="xinwen"><a href="" target="_blank">新闻</a></li>
+                <li class="news-2" data-more="huodong"><a href="" target="_blank">活动</a></li>
+                <li class="news-3" data-more="gonglue"><a href="" target="_blank">攻略</a></li>
+            </ul>
+        </div>
+        <div class="headline">
+            {{foreach $xinwen as $value}}
+            {{if $value@iteration eq 1}}
+            <a class="headline-title" title="{{$value.TITLE}}" target="_blank" href="{{$value.URL}}">{{$value.TITLE}} <i></i></a>
+            {{/if}}
+            {{/foreach}}
+        </div>
+        <div class="news-list" id="news-list">
+            <!-- 新闻公告 -->
+            <ul>
+                {{foreach $xinwen as $value}}
+                <li><span class="news-date">{{$value.PUB_TIME}}</span><a class="news-cat n-type" rel="nofollow"
+                                                                         target="_blank" href="">[新闻]</a>&nbsp;&nbsp;<a
+                        class="news-a a-link" href="{{$value.URL}}" title="{{$value.TITLE|strip_tags}}" target="_blank">{{$value.TITLE}}</a>
+                </li>
+                {{/foreach}}
+            </ul>
+
+            <!-- 攻略 -->
+            <ul class="hidden">
+                {{foreach $gonglue as $value}}
+                <li><span class="news-date">{{$value.PUB_TIME}}</span><a class="news-cat n-type" rel="nofollow"
+                                                                         target="_blank" href="">[攻略]</a>&nbsp;&nbsp;<a
+                        class="news-a a-link" href="{{$value.URL}}" title="{{$value.TITLE|strip_tags}}" target="_blank">{{$value.TITLE}}</a>
+                </li>
+                {{/foreach}}
+            </ul>
+
+            <!-- 活动资讯 -->
+            <ul class="hidden">
+                {{foreach $huodong as $value}}
+                <li><span class="news-date">{{$value.PUB_TIME}}</span><a class="news-cat n-type" rel="nofollow"
+                                                                         target="_blank" href="">[活动]</a>&nbsp;&nbsp;<a
+                        class="news-a a-link" href="{{$value.URL}}" title="{{$value.TITLE|strip_tags}}" target="_blank">{{$value.TITLE}}</a>
+                </li>
+                {{/foreach}}
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
